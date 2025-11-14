@@ -1,0 +1,448 @@
+{
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "successRate": 100
+  },
+  "results": [
+    {
+      "name": "Authentication Flow",
+      "status": "PASSED",
+      "duration": 541,
+      "result": {
+        "testName": "User Authentication Flow",
+        "status": "PASSED",
+        "steps": [
+          {
+            "step": 1,
+            "action": "navigate",
+            "target": "LoginScreen",
+            "status": "PASSED",
+            "duration": 82.55881422574149
+          },
+          {
+            "step": 2,
+            "action": "input",
+            "target": "emailInput",
+            "status": "PASSED",
+            "duration": 132.88251738357124
+          },
+          {
+            "step": 3,
+            "action": "input",
+            "target": "passwordInput",
+            "status": "PASSED",
+            "duration": 85.73791813272203
+          },
+          {
+            "step": 4,
+            "action": "click",
+            "target": "loginButton",
+            "status": "PASSED",
+            "duration": 139.8003270244062
+          },
+          {
+            "step": 5,
+            "action": "verify",
+            "target": "DashboardScreen",
+            "status": "PASSED",
+            "duration": 78.33081437711935
+          }
+        ],
+        "duration": 519.3103911435603,
+        "timestamp": "2025-10-12T10:37:36.338Z"
+      },
+      "timestamp": "2025-10-12T10:37:36.340Z"
+    },
+    {
+      "name": "Donation Flow",
+      "status": "PASSED",
+      "duration": 760,
+      "result": {
+        "testName": "Donation Creation Flow",
+        "status": "PASSED",
+        "steps": [
+          {
+            "step": 1,
+            "action": "navigate",
+            "target": "DonateScreen",
+            "status": "PASSED",
+            "duration": 117.1659234250694
+          },
+          {
+            "step": 2,
+            "action": "select",
+            "target": "donationType",
+            "status": "PASSED",
+            "duration": 63.36029475869647
+          },
+          {
+            "step": 3,
+            "action": "input",
+            "target": "quantity",
+            "status": "PASSED",
+            "duration": 56.73306700750822
+          },
+          {
+            "step": 4,
+            "action": "input",
+            "target": "description",
+            "status": "PASSED",
+            "duration": 72.51299669394422
+          },
+          {
+            "step": 5,
+            "action": "input",
+            "target": "location",
+            "status": "PASSED",
+            "duration": 94.56650440288698
+          },
+          {
+            "step": 6,
+            "action": "click",
+            "target": "submitButton",
+            "status": "PASSED",
+            "duration": 138.66425348935547
+          },
+          {
+            "step": 7,
+            "action": "verify",
+            "target": "DonationSuccessScreen",
+            "status": "PASSED",
+            "duration": 100.16439038007513
+          }
+        ],
+        "duration": 643.1674301575359,
+        "timestamp": "2025-10-12T10:37:37.100Z"
+      },
+      "timestamp": "2025-10-12T10:37:37.100Z"
+    },
+    {
+      "name": "NGO Dashboard",
+      "status": "PASSED",
+      "duration": 542,
+      "result": {
+        "testName": "NGO Dashboard Functionality",
+        "status": "PASSED",
+        "steps": [
+          {
+            "step": 1,
+            "action": "login",
+            "status": "PASSED",
+            "duration": 54.25407180800816
+          },
+          {
+            "step": 2,
+            "action": "navigate",
+            "target": "NGODashboardScreen",
+            "status": "PASSED",
+            "duration": 71.56339575226609
+          },
+          {
+            "step": 3,
+            "action": "verify",
+            "target": "availableDonationsTab",
+            "status": "PASSED",
+            "duration": 127.78389430319999
+          },
+          {
+            "step": 4,
+            "action": "click",
+            "target": "availableDonationsTab",
+            "status": "PASSED",
+            "duration": 96.91346325179752
+          },
+          {
+            "step": 5,
+            "action": "verify",
+            "target": "donationList",
+            "status": "PASSED",
+            "duration": 73.8068045952093
+          }
+        ],
+        "duration": 424.3216297104811,
+        "timestamp": "2025-10-12T10:37:37.642Z"
+      },
+      "timestamp": "2025-10-12T10:37:37.642Z"
+    },
+    {
+      "name": "Admin Panel",
+      "status": "PASSED",
+      "duration": 542,
+      "result": {
+        "testName": "Admin Panel Functionality",
+        "status": "PASSED",
+        "steps": [
+          {
+            "step": 1,
+            "action": "login",
+            "status": "PASSED",
+            "duration": 78.03403153947272
+          },
+          {
+            "step": 2,
+            "action": "navigate",
+            "target": "AdminDashboardScreen",
+            "status": "PASSED",
+            "duration": 97.52479803855928
+          },
+          {
+            "step": 3,
+            "action": "verify",
+            "target": "userManagementTab",
+            "status": "PASSED",
+            "duration": 50.957718310747644
+          },
+          {
+            "step": 4,
+            "action": "click",
+            "target": "userManagementTab",
+            "status": "PASSED",
+            "duration": 67.58662866774559
+          },
+          {
+            "step": 5,
+            "action": "verify",
+            "target": "userList",
+            "status": "PASSED",
+            "duration": 72.79106477189521
+          }
+        ],
+        "duration": 366.89424132842043,
+        "timestamp": "2025-10-12T10:37:38.184Z"
+      },
+      "timestamp": "2025-10-12T10:37:38.184Z"
+    },
+    {
+      "name": "Navigation Flow",
+      "status": "PASSED",
+      "duration": 542,
+      "result": {
+        "testName": "App Navigation Flow",
+        "status": "PASSED",
+        "steps": [
+          {
+            "step": 1,
+            "action": "navigate",
+            "target": "DashboardScreen",
+            "status": "PASSED",
+            "duration": 142.94421648122068
+          },
+          {
+            "step": 2,
+            "action": "click",
+            "target": "donateTab",
+            "status": "PASSED",
+            "duration": 79.78816758661867
+          },
+          {
+            "step": 3,
+            "action": "click",
+            "target": "mapTab",
+            "status": "PASSED",
+            "duration": 54.675622765800334
+          },
+          {
+            "step": 4,
+            "action": "click",
+            "target": "ngoListTab",
+            "status": "PASSED",
+            "duration": 90.8005855881128
+          },
+          {
+            "step": 5,
+            "action": "click",
+            "target": "profileTab",
+            "status": "PASSED",
+            "duration": 138.1695331186832
+          }
+        ],
+        "duration": 506.37812554043563,
+        "timestamp": "2025-10-12T10:37:38.727Z"
+      },
+      "timestamp": "2025-10-12T10:37:38.727Z"
+    },
+    {
+      "name": "API Integration",
+      "status": "PASSED",
+      "duration": 323,
+      "result": {
+        "testName": "API Integration Tests",
+        "status": "PASSED",
+        "steps": [
+          {
+            "step": 1,
+            "action": "api_test",
+            "status": "PASSED",
+            "duration": 141.26894922876207
+          },
+          {
+            "step": 2,
+            "action": "api_test",
+            "status": "PASSED",
+            "duration": 63.21593717547928
+          },
+          {
+            "step": 3,
+            "action": "api_test",
+            "status": "PASSED",
+            "duration": 111.03628073832257
+          }
+        ],
+        "duration": 315.52116714256397,
+        "timestamp": "2025-10-12T10:37:39.051Z"
+      },
+      "timestamp": "2025-10-12T10:37:39.051Z"
+    }
+  ],
+  "timestamp": "2025-10-12T10:37:39.055Z",
+  "config": {
+    "projectName": "AnnaBachao Frontend",
+    "projectType": "react-native",
+    "version": "1.0.0",
+    "testConfig": {
+      "entryPoints": [
+        "./App.js",
+        "./src/navigation/AppNavigator.js",
+        "./src/context/AuthContext.js"
+      ],
+      "screens": [
+        "./src/screens/auth/LoginScreen.js",
+        "./src/screens/auth/RegisterScreen.js",
+        "./src/screens/main/DashboardScreen.js",
+        "./src/screens/main/DonateScreen.js",
+        "./src/screens/main/NGOListScreen.js",
+        "./src/screens/main/MapViewScreen.js",
+        "./src/screens/main/ProfileScreen.js",
+        "./src/screens/ngo/NGODashboardScreen.js",
+        "./src/screens/ngo/AvailableDonationsScreen.js",
+        "./src/screens/admin/AdminDashboardScreen.js"
+      ],
+      "apiEndpoints": [
+        "http://localhost:3000/api/auth/login",
+        "http://localhost:3000/api/auth/register",
+        "http://localhost:3000/api/donations",
+        "http://localhost:3000/api/admin/users"
+      ],
+      "testScenarios": [
+        {
+          "name": "User Authentication Flow",
+          "description": "Test login and registration functionality",
+          "steps": [
+            "Navigate to login screen",
+            "Enter valid credentials",
+            "Verify successful login",
+            "Test logout functionality"
+          ]
+        },
+        {
+          "name": "Donation Flow",
+          "description": "Test donation creation and management",
+          "steps": [
+            "Navigate to donate screen",
+            "Fill donation form",
+            "Submit donation",
+            "Verify donation success screen"
+          ]
+        },
+        {
+          "name": "NGO Dashboard",
+          "description": "Test NGO-specific functionality",
+          "steps": [
+            "Login as NGO user",
+            "Access NGO dashboard",
+            "View available donations",
+            "Manage donations"
+          ]
+        },
+        {
+          "name": "Admin Panel",
+          "description": "Test admin functionality",
+          "steps": [
+            "Login as admin user",
+            "Access admin dashboard",
+            "Manage users",
+            "View system statistics"
+          ]
+        }
+      ],
+      "userRoles": [
+        {
+          "role": "regular_user",
+          "credentials": {
+            "email": "testuser@example.com",
+            "password": "testpassword123"
+          }
+        },
+        {
+          "role": "ngo_user",
+          "credentials": {
+            "email": "testngo@example.com",
+            "password": "testpassword123"
+          }
+        },
+        {
+          "role": "admin_user",
+          "credentials": {
+            "email": "admin@example.com",
+            "password": "adminpassword123"
+          }
+        }
+      ],
+      "environment": {
+        "platform": "expo",
+        "device": "simulator",
+        "os": "ios/android",
+        "network": "wifi"
+      },
+      "testData": {
+        "donations": [
+          {
+            "type": "food",
+            "quantity": 5,
+            "description": "Fresh vegetables",
+            "location": "Test Location",
+            "expiryDate": "2024-12-31"
+          }
+        ],
+        "users": [
+          {
+            "name": "Test User",
+            "email": "testuser@example.com",
+            "phone": "+1234567890",
+            "role": "user"
+          }
+        ]
+      }
+    },
+    "reporting": {
+      "outputDir": "./test-results",
+      "formats": [
+        "json",
+        "html",
+        "junit"
+      ],
+      "includeScreenshots": true,
+      "includeVideos": false
+    },
+    "performance": {
+      "enabled": true,
+      "thresholds": {
+        "loadTime": 3000,
+        "memoryUsage": 100,
+        "cpuUsage": 80
+      }
+    },
+    "accessibility": {
+      "enabled": true,
+      "standards": [
+        "WCAG 2.1 AA"
+      ],
+      "tools": [
+        "axe-core",
+        "react-native-accessibility"
+      ]
+    }
+  }
+}

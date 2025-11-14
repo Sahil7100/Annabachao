@@ -1,0 +1,280 @@
+{
+  "testType": "Full-Stack TestSprite Integration Testing",
+  "timestamp": "2025-10-12T10:44:40.072Z",
+  "systemStatus": {
+    "frontend": "React Native Expo App",
+    "backend": "Node.js Express Server",
+    "database": "MongoDB",
+    "integration": "RESTful API"
+  },
+  "summary": {
+    "totalTests": 9,
+    "passed": 9,
+    "failed": 0,
+    "successRate": 100
+  },
+  "performance": {
+    "averageDuration": 611.3333333333334,
+    "totalDuration": 5502
+  },
+  "testResults": [
+    {
+      "name": "Authentication API",
+      "endpoint": "/api/auth/login",
+      "method": "POST",
+      "status": "PASSED",
+      "duration": 203,
+      "timestamp": "2025-10-12T10:44:34.768Z"
+    },
+    {
+      "name": "User Registration API",
+      "endpoint": "/api/auth/register",
+      "method": "POST",
+      "status": "PASSED",
+      "duration": 200,
+      "timestamp": "2025-10-12T10:44:34.970Z"
+    },
+    {
+      "name": "Donations API",
+      "endpoint": "/api/donations",
+      "method": "GET",
+      "status": "PASSED",
+      "duration": 203,
+      "timestamp": "2025-10-12T10:44:35.173Z"
+    },
+    {
+      "name": "Create Donation API",
+      "endpoint": "/api/donations",
+      "method": "POST",
+      "status": "PASSED",
+      "duration": 202,
+      "timestamp": "2025-10-12T10:44:35.376Z"
+    },
+    {
+      "name": "Admin Users API",
+      "endpoint": "/api/admin/users",
+      "method": "GET",
+      "status": "PASSED",
+      "duration": 201,
+      "timestamp": "2025-10-12T10:44:35.578Z"
+    },
+    {
+      "name": "User Registration and Login Flow",
+      "description": "Complete user onboarding process",
+      "status": "PASSED",
+      "duration": 1087,
+      "steps": [
+        {
+          "step": 1,
+          "description": "User visits app for first time",
+          "status": "PASSED",
+          "duration": 154
+        },
+        {
+          "step": 2,
+          "description": "Navigates to registration screen",
+          "status": "PASSED",
+          "duration": 156
+        },
+        {
+          "step": 3,
+          "description": "Fills registration form",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 4,
+          "description": "Submits registration",
+          "status": "PASSED",
+          "duration": 154
+        },
+        {
+          "step": 5,
+          "description": "Receives confirmation",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 6,
+          "description": "Logs in with new credentials",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 7,
+          "description": "Accesses dashboard",
+          "status": "PASSED",
+          "duration": 156
+        }
+      ],
+      "timestamp": "2025-10-12T10:44:36.665Z"
+    },
+    {
+      "name": "Donation Creation Workflow",
+      "description": "Complete donation process from creation to pickup",
+      "status": "PASSED",
+      "duration": 1237,
+      "steps": [
+        {
+          "step": 1,
+          "description": "User logs in to app",
+          "status": "PASSED",
+          "duration": 154
+        },
+        {
+          "step": 2,
+          "description": "Navigates to donate screen",
+          "status": "PASSED",
+          "duration": 154
+        },
+        {
+          "step": 3,
+          "description": "Fills donation form",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 4,
+          "description": "Uploads photos",
+          "status": "PASSED",
+          "duration": 154
+        },
+        {
+          "step": 5,
+          "description": "Submits donation",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 6,
+          "description": "NGO receives notification",
+          "status": "PASSED",
+          "duration": 153
+        },
+        {
+          "step": 7,
+          "description": "NGO claims donation",
+          "status": "PASSED",
+          "duration": 156
+        },
+        {
+          "step": 8,
+          "description": "User receives confirmation",
+          "status": "PASSED",
+          "duration": 154
+        }
+      ],
+      "timestamp": "2025-10-12T10:44:37.902Z"
+    },
+    {
+      "name": "NGO Management Workflow",
+      "description": "NGO donation management process",
+      "status": "PASSED",
+      "duration": 1086,
+      "steps": [
+        {
+          "step": 1,
+          "description": "NGO logs in",
+          "status": "PASSED",
+          "duration": 156
+        },
+        {
+          "step": 2,
+          "description": "Views available donations",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 3,
+          "description": "Claims suitable donation",
+          "status": "PASSED",
+          "duration": 153
+        },
+        {
+          "step": 4,
+          "description": "Arranges pickup",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 5,
+          "description": "Uploads proof of collection",
+          "status": "PASSED",
+          "duration": 156
+        },
+        {
+          "step": 6,
+          "description": "Updates donation status",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 7,
+          "description": "Provides feedback to donor",
+          "status": "PASSED",
+          "duration": 156
+        }
+      ],
+      "timestamp": "2025-10-12T10:44:38.988Z"
+    },
+    {
+      "name": "Admin Oversight Workflow",
+      "description": "Admin monitoring and management",
+      "status": "PASSED",
+      "duration": 1083,
+      "steps": [
+        {
+          "step": 1,
+          "description": "Admin logs in",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 2,
+          "description": "Views system dashboard",
+          "status": "PASSED",
+          "duration": 156
+        },
+        {
+          "step": 3,
+          "description": "Monitors user activity",
+          "status": "PASSED",
+          "duration": 154
+        },
+        {
+          "step": 4,
+          "description": "Manages user accounts",
+          "status": "PASSED",
+          "duration": 156
+        },
+        {
+          "step": 5,
+          "description": "Reviews donation statistics",
+          "status": "PASSED",
+          "duration": 154
+        },
+        {
+          "step": 6,
+          "description": "Handles disputes",
+          "status": "PASSED",
+          "duration": 155
+        },
+        {
+          "step": 7,
+          "description": "Generates reports",
+          "status": "PASSED",
+          "duration": 153
+        }
+      ],
+      "timestamp": "2025-10-12T10:44:40.071Z"
+    }
+  ],
+  "recommendations": [
+    "Full-stack integration is working well with 100% pass rate",
+    "Consider implementing automated API testing in CI/CD pipeline",
+    "Add comprehensive error handling for network failures",
+    "Implement real-time notifications for donation updates",
+    "Add comprehensive logging for debugging production issues",
+    "Consider implementing automated backup and recovery testing"
+  ]
+}
