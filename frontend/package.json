@@ -2,7 +2,7 @@
   "name": "annabachao-frontend",
   "version": "1.0.0",
   "description": "AnnaBachao Food Waste Management Mobile App",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "start:clean": "expo start -c",
